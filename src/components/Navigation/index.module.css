@@ -1,0 +1,19 @@
+.topNavigation {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.topNavigation span {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.topNavigation button {
+  background: none;
+  border: 0;
+}
+
+.topNavigation button svg {
+  height: 1rem;
+}

@@ -1,0 +1,61 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top button {
+  width: fit-content;
+  padding: 0 2rem;
+  background-color: transparent;
+  border-radius: 50px;
+  font-weight: bold;
+  border-color: #07b4a2;
+  border-style: solid;
+  color: #07b4a2;
+  font-size: 1rem;
+  height: 3rem;
+  position: relative;
+  top: 1rem;
+}
+
+.top > p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.data {
+  margin: 0;
+}
+
+.data p {
+  color: grey;
+  margin: 0;
+}
+
+.bottomPosition {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.bottomPosition button {
+  width: 100%;
+  background-color: #07b4a2;
+  border: 0;
+  border-radius: 100px;
+  height: 3rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.privacyPolicy {
+  font-size: 0.8rem;
+}
+
+.generalInfo {
+  border-bottom: 1px solid #80808033;
+  padding-bottom: 1rem;
+}

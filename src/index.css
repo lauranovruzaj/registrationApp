@@ -1,0 +1,205 @@
+html {
+  font-size: clamp(14px, 2vw, 20px);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.wrapper {
+  max-width: 80%;
+  margin: auto;
+  height: calc(100vh - 2rem);
+  padding: 2rem 0 0;
+  position: relative;
+}
+
+a {
+  color: #07b4a2;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.step1:after {
+  width: 25%;
+}
+.step2:after {
+  width: 50%;
+}
+
+.step3:after {
+  width: 75%;
+}
+
+.step4:after {
+  width: 100%;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker-popper {
+  position: fixed !important;
+  transform: translate(-50%, -50%) !important;
+  left: 50% !important;
+  top: 50% !important;
+  z-index: 1 !important;
+}
+
+.react-datepicker__tab-loop:before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.64);
+  z-index: 1;
+}
+
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::before,
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::after {
+  display: none;
+}
+
+.react-datepicker__header {
+  background-color: transparent !important;
+  border: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.react-datepicker__month {
+  margin-top: 0 !important;
+}
+
+.react-datepicker__day-name {
+  color: #80808033 !important;
+}
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day--selected {
+  background-color: transparent !important;
+  color: #07b4a2 !important;
+}
+
+.react-datepicker__day {
+  font-size: 15px;
+}
+
+.form-field-wrap {
+  margin-bottom: 1rem;
+}
+
+.react-datepicker__children-container {
+  display: flex;
+  width: auto;
+  clear: both;
+  justify-content: space-between;
+}
+
+.form-field-wrap input {
+  width: calc(100% - 1rem);
+  padding: 0 0 0 1rem;
+  height: 2rem;
+  margin-bottom: 0;
+  border-color: #80808033;
+  border-width: 1px;
+  border-radius: 8px;
+  outline: 0;
+}
+
+.form-field-wrap select {
+  width: 100%;
+  padding: 0 1rem;
+  height: 2rem;
+  margin-bottom: 0;
+  border-color: #80808033;
+  border-width: 1px;
+  border-radius: 8px;
+  outline: 0;
+}
+
+.form-field-wrap.prefix {
+  margin-bottom: 0;
+  width: fit-content;
+  position: relative;
+  top: 1.5rem;
+  left: 1rem;
+  margin-top: -1.5rem;
+}
+
+.form-field-wrap.prefix select {
+  border: 0;
+  height: auto;
+  width: auto;
+  padding: 0;
+}
+
+.form-field-wrap input[name="phone"] {
+  padding-left: 4rem;
+  width: calc(100% - 4rem);
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #07b4a2;
+  border: 0;
+  border-radius: 100px;
+  height: 3rem;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  bottom: 1rem;
+  font-size: 1rem;
+}
+
+button[type="submit"]:disabled {
+  background-color: #80808033;
+  color: #000;
+}
+
+form .error-message {
+  color: red;
+  font-size: 13px;
+}
+
+.confirmation-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  object-fit: cover;
+  border-radius: 15px;
+  max-height: 20rem;
+}
+
+button.close {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #80808033;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+button.add {
+  background-color: #07b4a2;
+  color: #fff;
+  border: 1px;
+  padding: 7px 15px;
+  border-radius: 5px;
+}

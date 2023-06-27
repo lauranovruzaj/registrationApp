@@ -101,6 +101,56 @@ h1 {
   font-size: 15px;
 }
 
+html .react-datepicker__navigation-icon--next::before {
+  transform: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M440.6 273.4c4.7-4.5 7.4-10.8 7.4-17.4s-2.7-12.8-7.4-17.4l-176-168c-9.6-9.2-24.8-8.8-33.9 .8s-8.8 24.8 .8 33.9L364.1 232 24 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l340.1 0L231.4 406.6c-9.6 9.2-9.9 24.3-.8 33.9s24.3 9.9 33.9 .8l176-168z'/%3E%3C/svg%3E");
+  border: 0;
+  width: 16px;
+  background-repeat: no-repeat;
+  height: 16px;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+
+html .react-datepicker__navigation-icon--next,
+html .react-datepicker__navigation-icon--previous {
+  left: auto;
+  top: auto;
+  font-size: 0;
+  width: auto;
+}
+
+html .react-datepicker__navigation-icon--previous::before {
+  transform: none;
+  right: auto;
+  top: auto;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M7.4 273.4C2.7 268.8 0 262.6 0 256s2.7-12.8 7.4-17.4l176-168c9.6-9.2 24.8-8.8 33.9 .8s8.8 24.8-.8 33.9L83.9 232 424 232c13.3 0 24 10.7 24 24s-10.7 24-24 24L83.9 280 216.6 406.6c9.6 9.2 9.9 24.3 .8 33.9s-24.3 9.9-33.9 .8l-176-168z'/%3E%3C/svg%3E");
+  border: 0;
+  width: 16px;
+  background-repeat: no-repeat;
+  height: 16px;
+  position: relative;
+}
+
+html .react-datepicker__navigation {
+  border: 1px solid;
+  border-color: #80808033;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  top: 8px;
+}
+
+html .react-datepicker__navigation--next {
+  right: 8px;
+}
+
+html .react-datepicker__navigation--previous {
+  left: 8px;
+}
+
 .form-field-wrap {
   margin-bottom: 1rem;
 }

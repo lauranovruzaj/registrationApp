@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Project local setup instructions.
 
 - Clone the newly created repo to your local environment to start working on it.
-  git clone git@github.com:lauranovruzaj/teachway_code_challenge.git
+  git clone git@github.com:lauranovruzaj/registrationApp.git
 
 - Install node modules by running `npm install`
 
